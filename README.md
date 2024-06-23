@@ -9,7 +9,7 @@ The goal of this project is to automatically detect persons in videos, apply pad
 ## Usage
 Place your video files in the input_videos directory.
 
-Run the script to start processing videos and cropping persons:
+Run the main script to start processing videos and cropping persons:
 
 ```bash
 $ python detect.py --source input_videos/ --conf-thres 0.4 --classes 0 --save-crop --project output_images/ --name personcrops/ --nosave
